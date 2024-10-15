@@ -1,4 +1,4 @@
-function CriaCartão(categoria, pergunta, resposta) {
+function CriaCartao(categoria, pergunta, resposta) {
     let container = document.getElementById('container')
     let cartao = document.createElement('article')
     cartao.className = 'cartao'
@@ -17,7 +17,7 @@ function CriaCartão(categoria, pergunta, resposta) {
 
     let respostaEstaVisivel = false
 
-    function viraCartão() {
+    function viraCartao() {
         respostaEstaVisivel = !respostaEstaVisivel
         cartao.classList.toggle('active', respostaEstaVisivel)
     }
