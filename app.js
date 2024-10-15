@@ -21,7 +21,7 @@ function criaCartao(categoria, pergunta, resposta) {
         respostaEstaVisivel = !respostaEstaVisivel
         cartao.classList.toggle('active', respostaEstaVisivel)
     }
-    cartao.assEventListener('click', viraCartão)
+    cartao.addEventListener('click', viraCartão)
 
 
     container.appendChild(cartao)
